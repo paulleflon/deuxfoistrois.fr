@@ -1,0 +1,36 @@
+@font-face {
+	font-family: 'Lovelo';
+	src: url('./Lovelo-Black.woff2') format('woff2');
+}
+
+
+html, body, .App {
+	position: relative;
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	height: 100vh;
+}
+
+.App {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	outline: none;
+}
+
+.sentence {
+	font: 10vw 'Lovelo', sans-serif;
+	color: transparent;
+	-webkit-text-stroke: 1px white;
+	width: 100%;
+	text-align: center;
+	position: relative;
+}
+
+.sentence2 {
+	font: 4vw 'Lovelo', sans-serif;
+	color: #fff;
+	text-align: center;
+}
